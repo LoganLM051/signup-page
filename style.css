@@ -13,3 +13,12 @@ h1 {
 h2 {
     color:limegreen;
 }
+.box {
+  background-color:lightgreen;
+  margin: 40px 0;
+  margin-top:40px;
+  margin-bottom:40px;
+  border: 4px dashed darkgreen;
+  border-spacing:40px;
+  padding: 60px;
+}

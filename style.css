@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+/* Basic CSS Stylings*/
 html {
   scroll-behavior: smooth;
 }
@@ -21,4 +25,23 @@ h2 {
   border: 4px dashed darkgreen;
   border-spacing:40px;
   padding: 60px;
+}
+/* Form Stylings*/
+label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 30rem;
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  font: inherit;
 }

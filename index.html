@@ -34,6 +34,28 @@
 <section id="join" class="box"> 
 <h2> Join the Monthly Basketball Club.</h2>
 <p> Please fill out the form below today and become a part of our basketball community!</p>
+<!-- Day 2 Form-->
+<form> 
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+  <label for="email"> Your Email:</label>
+  <input type="email" name="email" placeholder="you@example.com" required>
+  <!-- Dropdown-->
+   <label for="session">Which practice can you come to?</label>
+  <select id="session" name="session">
+  <option value="">Choose a date</option>
+  <option value="first">First Friday</option> 
+  <option value="third">Third Friday</option> 
+  <option value="either">Either Friday is fine</option> 
+</select>
+<!-- Day 2 text area-->
+
+<label for="message"> Anything we should know?</label>
+<textarea id="message" name="message" rows="4"></textarea>
+<!-- Submit Button-->
+ <button type="submit">Sign me up</button>
+</form>
 </section>
 </main>
 <footer>Made by Logan Merrill</footer>

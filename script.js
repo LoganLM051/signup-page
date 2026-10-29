@@ -20,7 +20,7 @@ let nextButton = document.querySelector("#next-btn");
 let nextMeeting = document.querySelector("#next-meeting");
 
 function showNextMeeting() {
-  nextMeeting.textContent = "Our next practice is Friday, November 13th at 3:45 PM.";
+  nextMeeting.textContent = "Our next practice is Friday, November 5th at 3:45 PM.";
 }
 
 nextButton.addEventListener("click", showNextMeeting);

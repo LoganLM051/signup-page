@@ -107,3 +107,7 @@ form {
   flex-direction:column;
   gap:4px;
 }
+/*Block vs inline styles*/
+.compare * {
+  outline:2px dashed tomato;
+}

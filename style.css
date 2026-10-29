@@ -5,11 +5,39 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: Arial, sans-serif;
   margin: 0 24px;
   background-color:rgb(142, 196, 154);
+}
+nav {
+  display:flex;
+  gap:16px; 
+  justify-content:center;
+  background-color:lightgreen;
+}
+nav a {
+  background-color:lightgreen; 
+  text-decoration:none;
+  font-weight:bold;
+  margin:15px;
+  padding:8px;
+}
+nav a:link{
+  color:lightgreen;
+  font-size:20px;
+}
+nav a:visited{
+  color:rgb(47, 180, 47);
+  font-size:25px;
+}
+nav a:hover{
+  color:green;
+  font-size:30px;
+}
+nav a:active{
+  color:seagreen;
+  font-size:25px;
 }
 h1 {
     color:green;

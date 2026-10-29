@@ -24,7 +24,7 @@ nav a {
   padding:8px;
 }
 nav a:link{
-  color:lightgreen;
+  color:rgb(108, 193, 24);
   font-size:20px;
 }
 nav a:visited{
